@@ -1,0 +1,104 @@
+
+
+
+<input type="hidden" id="val" name="val" value="0">
+<div class="content" style="display:block;" >
+	<div class="header container">
+        <a href="#/home"><div class="home_icon"></div></a>
+        <a href="#/home"><div class="back_icon"></div></a>
+    	<div class="logo" align="center">
+        	MAYOT
+        </div>
+    </div>
+    <div id="show_post" style="display:none;">0 seconds</div>
+    
+     <div class="box_holder">
+    	<div class="box_header important_title">INTERVENTION PLAN</div>
+	</div>
+    <span class="float_right"><a href="#/help/Intervention" class="theme_button_half help_button">HELP</a></span>
+	<div class="clear" style="height:15px;"></div>
+    
+    <div class="box_holder" id="target_holder">
+            <div class="box_header important_title">MAJOR TARGETS</div>
+            <div class="box_content" id="targets_holder">
+
+            </div>
+            
+        </div>
+        
+        
+    
+    <div class="box_holder" id="plan_holder">
+        <div class="box_content">
+        
+        	
+            
+            <div class="everyline">
+            	<span>Duration </span>
+            	<span class="float_right">{{total_days +' days'}}</script></span> 
+              
+            </div>
+            
+             <div class="everyline">
+            	<span>Start Date </span>
+            	<span class="float_right">{{sdate}}</span> 
+              
+            </div>
+            
+             <div class="everyline">
+            	<span>End Date </span>
+            	<span class="float_right">{{edate}}</span> 
+              
+            </div>
+            
+            <div class="everyline">
+            <div class="stat">
+            
+            <small class="stat-left">Intervention plan progress</small>
+            <br><small id="remind_days_left"> (Days left : )</small>
+            <span class="stat-background">
+            <span class="stat-cleaner"></span>
+            <span class="percent green" id="progress_meter"></span>
+            </span>
+            </div>	
+              
+            </div>
+        
+        <div class="clear"></div>
+        
+        </div>
+    </div>
+   
+   
+        
+    
+    <div class="box_holder" id="review_holder">
+    <div class="box_header important_title">REVIEW DATES</div>
+        <div class="box_content" id="list_dates">
+        
+        
+        
+        </div>
+    </div>
+    
+    
+    
+    
+    
+   
+   	<div class="box_holder" id="no_info_received"  style="display:none">
+    <div class="box_content">
+            <p>No intervention plan added yet</p>          
+     </div>
+    </div>
+    
+             <!--<a href="#/sync/intervention" class="login_button"  id="force_sync_btn"><div>Refresh</div></a>-->
+    
+</div>
+
+
+</body>
+</html>
+
+
+

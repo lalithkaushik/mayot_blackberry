@@ -1,0 +1,48 @@
+.stat-right {
+    color: #959595;
+    float: right;
+    font-size: 10px;
+    margin-bottom: 5px;
+}
+
+.stat-left {
+    
+   
+    font-size: 100%;
+    margin-bottom: 5px;
+}
+
+.stat-background {
+    border:1px solid #CCCCCC;
+    
+    display: block;
+     
+    margin:10px 0px;
+}
+
+.stat-cleaner {
+    display: block;
+    
+    width: 100%;
+}
+
+.percent {
+    display: block;
+    height: 28px;
+    
+    position: relative;
+}
+
+.green {
+    background-color: #A5CB5E;
+}
+
+.orange {
+    background-color: orange;
+}
+
+.red {
+    background-color: red;
+}
+
+

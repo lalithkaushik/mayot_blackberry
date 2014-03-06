@@ -1,0 +1,69 @@
+
+<div class="content" style="display:block;">
+	<div class="header container">
+        <a href="#/home"><div class="home_icon"></div></a>
+        <a href="#/home"><div class="back_icon"></div></a>
+    	<div class="logo" align="center">
+        	MAYOT
+        </div>
+    </div>
+    <div id="show_post" style="display:none;">0 seconds</div>
+    
+     <div class="box_holder">
+    	<div class="box_header important_title">SETTINGS</div>
+	</div>
+    
+	<span class="float_right"><a href="#/help/Settings" class="theme_button_half help_button">HELP</a></span>
+	<div class="clear" style="height:15px;"></div>
+    
+     <div class="box_holder">
+     	<div class="box_header">EXCLUSION ZONE ALERT</div>
+    	<div class="box_content">
+            <p style="margin:3px 0px 2px 0px;">Click to toggle</p>
+            	<div class="onoffswitch">
+                    <input type="checkbox" name="exclusion_zone" class="onoffswitch-checkbox" id="exclusion_zone" onclick="show_exclusion_vibrate_option(this)">
+                    <label class="onoffswitch-label" for="exclusion_zone">
+                        <div class="onoffswitch-inner"></div>
+                        <div class="onoffswitch-switch"></div>
+                    </label>
+                </div>
+                
+                <div id="exclusion_zone_vibrate" class="sub_option">
+                	<input type="checkbox" id="setting_exclusion_btn" class="styled" onClick="toggle_exclusion_zone(this)" /> Vibrate only
+                </div>
+          		
+                <div class="clear"></div>
+           
+        </div>
+	</div>
+    
+    
+    <div class="box_holder">
+     	<div class="box_header">CURFEW ZONE ALERT</div>
+    	<div class="box_content">
+             <p style="margin:3px 0px 2px 0px;">Click to toggle</p>
+            	<div class="onoffswitch">
+                    <input type="checkbox" name="curfew_zone" class="onoffswitch-checkbox" id="curfew_zone" onclick="show_curfew_vibrate_option(this)">
+                    <label class="onoffswitch-label" for="curfew_zone">
+                        <div class="onoffswitch-inner"></div>
+                        <div class="onoffswitch-switch"></div>
+                    </label>
+                </div>
+                
+                
+                <div id="curfew_zone_vibrate" class="sub_option">
+                	<input type="checkbox" id="setting_curfew_btn" class="styled" onClick="toggle_curfew_zone(this)" /> Vibrate only
+                </div>
+          
+           		<div class="clear"></div>
+        </div>
+	</div>
+    
+    
+   
+    <!--<a href="sync.html?page=settings" class="login_button" id="force_sync_btn"><div>Refresh</div></a>-->
+    
+</div>
+
+
+

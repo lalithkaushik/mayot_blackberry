@@ -1,0 +1,34 @@
+
+<div class="content">
+	<div id="fix_for_ios"></div>
+	<div class="header container">
+    	<div class="logo" align="center">
+        	MAYOT
+        </div>
+    </div>
+
+
+            <form name="login_frm" id="login_frm" target="ifrm_lgn" method="post">
+            	<div id="login_wrapper" style="display:none;">
+                    <div class="login_box">
+                        <input type="text" name="email_mobile" id="email_mobile" placeholder="Username" />
+                        <input type="password" name="pwd" id="pwd" placeholder="Password" />
+                    </div>
+                	<a href="javascript:;" class="login_button" ng-click="login()" id="validating_div"><div>Login</div></a>
+                </div>
+                
+                <div id="password_wrapper" style="display:none;">
+                    <h2 class="welcome_user">Hi {{yp_name}}</h2>
+                    <div class="password_box">
+                    	<input type="password" name="pwd_only" id="pwd_only" placeholder="Password" />
+                    </div>
+                    <a href="javascript:;" class="login_button" ng-click="password_validation()" id="validating_div"><div>Login</div></a>
+                </div>
+                <p class="subtext" align="center">Privacy Statement </p>
+                <div id="latest_updates">
+                
+                </div>
+                
+            </form>
+    	
+</div>
