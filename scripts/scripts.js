@@ -143,8 +143,8 @@ function onSuccess(position) {
 		//find_curfew(position.coords.latitude,position.coords.longitude);
 	}
 	
-	var chk_url = url+'push_details.php?cooridinates='+cooridinates+'&device='+escape(phoneName)+'&page=APP';
-	$('#show_post').load(chk_url);
+	//var chk_url = url+'push_details.php?cooridinates='+cooridinates+'&device='+escape(phoneName)+'&page=APP';
+	//$('#show_post').load(chk_url);
 }
 
 function onError(error) {
